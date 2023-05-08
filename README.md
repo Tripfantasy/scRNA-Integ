@@ -1,6 +1,6 @@
 # scRNA-Integ
 
-The goal of this potential workflow is to assess performance of tools such as GraphST, alongside more standardized single cell workflows for spatial analysis. In addition, we hope to include a streamline method of cell annotation utilyzing SingleR or other alternative methods in the future. The workflow will be ran as a python script calling from a module of functions that access the tools involved. Portions of the workflow will be done using R, wrapped within python. 
+The goal of this potential workflow is to assess performance of tools such as GraphST, alongside more standardized single cell workflows for spatial analysis.The workflow will be ran as a python script calling from a module of functions that access the tools involved. Portions of the workflow will be done using R, wrapped within python. Workflow will take advantage of cuda for performance, but should also be compatible with cpu cores. (Will take note if otherwise)
 
 ## Significant Updates
 
@@ -16,3 +16,8 @@ The goal of this potential workflow is to assess performance of tools such as Gr
 - Add more basic spatialomic analysis functionality. Differential expression, cell type clustering. 
 - Add annotation functionality to master script. 
 - Create refined .yaml file for necessary imports and dependencies. 
+
+## Current Functionality 
+- Spatial cluster plot via GraphST 
+- Preprocessing .Rds input to .h5ad (ComBat for batch correction, log transformation) [IN PROGRESS]
+
