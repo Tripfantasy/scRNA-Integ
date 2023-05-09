@@ -23,3 +23,15 @@ The goal of this potential workflow is to assess performance of tools such as Gr
 - Spatial cluster plot via GraphST 
 - Preprocessing .Rds input to .h5ad (ComBat for batch correction, log transformation) [IN PROGRESS]
 
+## Running the Script(s)
+Before running any scripts, you will need to download the package dependencies for proper functionality. We've provided a .yml file for users to load into a new conda environment for convenience. Keep in mind, the current .yml file is unstable- and possibly contains redundant packages. As we approach a more stable version, core dependencies will be added and removed. 
+
+1. Download the .yml file using the following bash command. 
+
+  ``` curl -o clust.yml https://raw.githubusercontent.com/Tripfantasy/scRNA-Integ/main/scripts/clust.yml ``` 
+
+2. Create conda environment using the provided clust.yml file. Note: It may take some time to install all package dependencies. 
+ 
+  ``` conda env create -f clust.yml ```
+
+3. Run desired scripts. It is encouraged to test basic functionality on provided test input data.
