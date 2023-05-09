@@ -10,6 +10,8 @@ The goal of this potential workflow is to assess performance of tools such as Gr
 | 5.08.23 | Added preprocessing functionality if input file is a seurat object. (.Rds) 
 - Troubleshooting file signature errors with .Rds in preprocess_seurat() 
 
+| 5.09.23 | Exported conda environment as .yml for reproducibility. 
+
 ## Goals 
 
 - Reformat clust.py OOP as a loadable module for later master script. 
