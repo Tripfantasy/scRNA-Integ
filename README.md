@@ -14,10 +14,12 @@ The goal of this potential workflow is to assess performance of tools such as Gr
 
 ## Goals 
 
-- Reformat clust.py OOP as a loadable module for later master script. 
+- Reformat clust.py OOP as a loadable module for later master script. [~] 
+- Make spatial cluster plot more adaptive.
 - Add more basic spatialomic analysis functionality. Differential expression, cell type clustering. 
 - Add annotation functionality to master script. 
-- Create refined .yaml file for necessary imports and dependencies. 
+- Create refined .yaml file for necessary imports and dependencies.  [X] 
+- Improve Speed 
 
 ## Current Functionality 
 - Spatial cluster plot via GraphST 
